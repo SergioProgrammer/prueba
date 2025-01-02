@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,41 +7,73 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
-
-   
-
     <div class="banner">
          <h2></h2>
-         <img src="{% static 'images/sqbackground.png' %}" alt="Banner" class="full-width-banner">
+         <img src="static/images/sqbackground.png" alt="Banner" class="full-width-banner">
     </div>
 
     <div class="section-title">Nuestros Servicios</div>
     <div class="grid-container">
         <div class="grid">
             <div class="grid-item">
-                <img src="{% static 'images/de (1).png' %}" alt="Logotipos">
+                <img src="static/images/de (1).png" alt="Logotipos">
                 <h3>Diseño Editorial</h3>
                 <p>Maquetación de memorias corporativas, lirbos, revistas, infografías; diseño de portadas.</p>
             </div>
             <div class="grid-item">
-                <img src="{% static 'images/dg (1).png' %}" alt="Creatividad Publicitaria">
+                <img src="static/images/dg (1).png" alt="Creatividad Publicitaria">
                 <h3>Diseño Gráfico</h3>
                 <p>Diseño de infografías, carteleria, señaletica y espacios, ilustraciones; ideantidad corporativa; packaging.</p>
             </div>
             <div class="grid-item">
-                <img src="{% static 'images/md360 (1).png' %}" alt="Videos Creativos">
+                <img src="static/images/md360 (1).png" alt="Videos Creativos">
                 <h3>Marketing 360°</h3>
                 <p>Estrastegias en comunicación y publicidad para lanzar tu negocio en el mercado</p>
             </div>
         </div>
     </div>
 
+    <div class="section-title">Empresas con las que trabajamos</div>
+    <div class="grid-container">
+        <div class="grid">
+            <div class="grid-item">
+                <img src="static/images/logoicia.png" alt="Empresa 1">
+                <h3>ICIA</h3>
+                <p>Instituto Canario de Investigaciones Agrarias.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/100x100" alt="Empresa 2">
+                <h3>CIAB</h3>
+                <p>Centro Internacional de Agricultura Biológica.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/100x100" alt="Empresa 3">
+                <h3>AENP</h3>
+                <p>Asociación Nacional de Nefrología Pediátrica.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/100x100" alt="Empresa 4">
+                <h3>Empresa 4</h3>
+                <p>Descripción de la Empresa 4.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/100x100" alt="Empresa 5">
+                <h3>Empresa 5</h3>
+                <p>Descripción de la Empresa 5.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://via.placeholder.com/100x100" alt="Empresa 6">
+                <h3>Empresa 6</h3>
+                <p>Descripción de la Empresa 6.</p>
+            </div>
+        </div>
+    </div>
 
     <div class="image-container">
-        <img src="{% static 'images/epmt.png' %}" alt="SQ Editorial">
+        <img src="static/images/sqbanner.jpg" alt="SQ Editorial">
     </div>
 
     <div class="grid-container">
@@ -52,10 +83,6 @@
                 <p>El diseño gráfico es una disciplina que combina creatividad y tecnología para comunicar ideas a través de imágenes, tipografía y diseño. Es una herramienta esencial para construir la identidad visual de una marca y transmitir su mensaje de manera efectiva.</p>
             </div>
         </div>
-    </div>
-
-    <div class="image-container">
-        <img src="{% static 'images/sqbanner.jpg' %}" alt="SQ Editorial">
     </div>
 
     <div class="cta-section">
@@ -68,6 +95,5 @@
         <p>&copy; 2024 SQ Maquetación Editorial y Diseño Gráfico. Todos los derechos reservados.</p>
         <p><a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a></p>
     </footer>
-
 </body>
 </html>
